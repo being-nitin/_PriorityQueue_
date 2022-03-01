@@ -14,6 +14,7 @@ public class Main {
         pq.offer(87);
         pq.offer(94);
         pq.offer(98);
+        // poll method will delete the minimum element from the list.
         pq.poll();
         System.out.println(pq);
     }
