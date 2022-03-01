@@ -17,5 +17,12 @@ public class Main {
         // poll method will delete the minimum element from the list.
         pq.poll();
         System.out.println(pq);
+
+        /*
+        This is a minimum heap data structure which means, the element which is minimum
+        will be removed first.
+         */
+
+
     }
 }
