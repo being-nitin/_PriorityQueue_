@@ -40,6 +40,8 @@ public class Main {
         pqr.offer(76);
         // now with poll method it will remove the largest element.
         pqr.poll();
+        // and peek method will return the largest element.
+        System.out.println(pqr.peek());
         System.out.println(pqr);
     }
 }
