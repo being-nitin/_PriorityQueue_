@@ -1,4 +1,5 @@
 package com.Recursion;
+import java.util.Comparator;
 import java.util.PriorityQueue;
 public class Main {
 
@@ -28,5 +29,17 @@ public class Main {
          */
 
 
+        // Case 2:
+        /*
+        if you want to give the priority to the largest element then use.
+         */
+        PriorityQueue <Integer> pqr = new PriorityQueue<>(Comparator.reverseOrder());
+        pqr.offer(98);
+        pqr.offer(99);
+        pqr.offer(101);
+        pqr.offer(76);
+        // now with poll method it will remove the largest element.
+        pqr.poll();
+        System.out.println(pqr);
     }
 }
