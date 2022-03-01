@@ -12,12 +12,16 @@ public class Main {
         pq.offer(90);
         pq.offer(78);
         pq.offer(87);
-        pq.offer(94);
-        pq.offer(98);
+        pq.offer(96);
+        pq.offer(65);
         // poll method will delete the minimum element from the list.
         pq.poll();
         System.out.println(pq);
 
+        /*
+        peek method will return the smallest element from te list.
+         */
+        System.out.println(pq.peek());
         /*
         This is a minimum heap data structure which means, the element which is minimum
         will be removed first.
